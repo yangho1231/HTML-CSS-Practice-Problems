@@ -4,6 +4,9 @@
     width: 100%;
     height: 530px;
     position: relative;
+    background: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
 }
@@ -72,5 +75,5 @@
 
 .shop-icon {
     width: 350px;
+    
 }
-

@@ -10,7 +10,7 @@
 /* Step-1.2 I would suggest using float to get this container in it's desired location*/
 
 .content-left {
-    width: 35%;
+    width: 25%;
     /*this height is a placeholder. You will need to make some adjustment to get this container to look like the design */
     height: 60vh;
     background: #565555;
@@ -21,7 +21,7 @@
 /* Step-1.3 I would suggest using float to get this container in it's desired location. */
 
 .content-mid {
-    width: 65%;
+    width: 75%;
     /*this height is a placeholder. You will need to make some adjustment to get this container to look like the design */
     height: 60vh;
     background: #B0B0B0;
@@ -39,4 +39,49 @@
     position: absolute;
     bottom: 0;
 
+  }
+
+  /* Step-2.1 One option to align this container to the center would be to give it a margin-left: auto; and margin-right: auto; */
+
+  .profile-image-container {
+      height: 150px;
+      width: 80%;
+      background: #96F0F2;
+      margin: auto;
+      margin-top: 30px;
+
+  }
+
+  /* Step-2.2  One option to align this container to the center would be to give it a margin-left: auto; and margin-right: auto; */
+
+  .profile-links-container {
+      background: #12F3F7;
+      width: 80%;
+      height: 280px;
+      margin: auto;
+      margin-top: 80px;
+  }
+
+  /* Step-2.3  You can either use float left or position absolute to get this element to in the desired location */
+
+  .logo-container {
+    width: 20%;
+    height: 60px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 20px;
+    background: #4F4949;
+
+  }
+
+
+  /* Step-2.4 You can either use float left or position absolute to get this element to in the desired location*/
+
+  .menu-container {
+      background: #4F4949;
+      float: right;
+      height: 100px;
+      width: 5vw;
+      margin-right: 20px;
+      margin-top: 20px;
   }
